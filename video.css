@@ -1,0 +1,78 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .iframe{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top : 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .child{
+    width: 800px;
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .child-1{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .child-button1,.child-button2{
+    width: 120px;
+    height: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .child-button1:hover{
+    background-color: rgb(93, 93, 248);
+  }
+  
+  .child-2{
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .child-button2:hover{
+    background-color: rgb(93, 93, 248);
+  }
+
+  .text{
+    font-size: 30px;
+
+  }
